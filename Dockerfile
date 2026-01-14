@@ -12,4 +12,4 @@ COPY main.py main.py
 WORKDIR /
 RUN uv sync --no-cache-dir
 
-ENTRYPOINT ["python", "-u", "main.py"]
+ENTRYPOINT ["uv", "run", "python", "-u", "main.py"]
