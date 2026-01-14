@@ -9,4 +9,5 @@ dependencies = [
     "dvc-gs>=3.0.2",
     "gdown>=5.2.1",
     "google-api-python-client>=2.187.0",
+    "scikit-learn>=1.8.0",
 ]
